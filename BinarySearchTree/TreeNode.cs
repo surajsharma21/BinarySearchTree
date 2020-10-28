@@ -41,7 +41,6 @@ namespace BinarySearchTree
                 }
             }
         }
-        //Displaying as leftNode -> rootNode -> rightNode
         public void InOrderTraversal()
         {
             if (leftNode != null)
