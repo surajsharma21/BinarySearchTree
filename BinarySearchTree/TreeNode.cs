@@ -41,6 +41,13 @@ namespace BinarySearchTree
                 }
             }
         }
+
+        internal int Search(int data)
+        {
+            throw new NotImplementedException();
+        }
+
+        //Displaying as leftNode -> rootNode -> rightNode
         public void InOrderTraversal()
         {
             if (leftNode != null)
